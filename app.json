@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Axel",
+    "slug": "Axel",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "axel",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "co.ukonnect.axel",
+      "buildNumber": "1.0.2"
+    },
+    "android": {
+      "package": "co.ukonnect.axel",
+      "versionCode": 3
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}
